@@ -46,5 +46,5 @@ export default App
 function slowFunction(num) {
   console.log('Calling Slow Function')
   for (let i = 0; i <= 1000000000; i++) {}
-  return num * 0
+  return num * 2
 } 
